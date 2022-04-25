@@ -51,7 +51,8 @@ export const styleGlobal = StyleSheet.create({
         width: ww * 0.98,
         justifyContent: 'center',
         alignSelf: 'center',
-        marginBottom: 10
+        marginBottom: 10,
+        marginTop: 10
     },
 
     viewListTransDet: {
@@ -62,7 +63,8 @@ export const styleGlobal = StyleSheet.create({
 
     viewSubListTransDet: {
         flexDirection: 'row',
-        alignSelf: 'center',
+        alignSelf: 'flex-start',
+        marginLeft: 15
     },
 
     viewListTrans: {
@@ -418,8 +420,63 @@ export const styleGlobal = StyleSheet.create({
         alignSelf: 'center',
         marginTop: 10,
         marginBottom: 25,
-    }
+    },
+
+    viewBtn: {
+        alignSelf: 'center', marginTop: 5, marginBottom: 5, flexDirection: 'row'
+    },
+
+    viewSubBtn: {
+        justifyContent: 'center',
+        backgroundColor: '#DCDCDC',
+        shadowColor: 'rgba(0,0,0, .4)', // IOS
+        shadowOffset: { height: 1, width: 1 }, // IOS
+        shadowOpacity: 1, // IOS
+        shadowRadius: 1, //IOS
+        elevation: 3, // Android
+        borderRadius: 10,
+        width: ww * 0.4,
+        margin: 5,
+        height: wh * 0.05,
+        alignSelf: 'center',
+        alignItems: 'center',
+    },
+
+    txtBtn: {
+        color: '#000', fontWeight: 'bold'
+    },
+
+    txtBtn_: {
+        color: '#fff', fontWeight: 'bold'
+    },
 
 
+    viewSubBtn_: {
+        justifyContent: 'center',
+        backgroundColor: '#1C2219',
+        shadowColor: 'rgba(0,0,0, .4)', // IOS
+        shadowOffset: { height: 1, width: 1 }, // IOS
+        shadowOpacity: 1, // IOS
+        shadowRadius: 1, //IOS
+        elevation: 3, // Android
+        borderRadius: 10,
+        width: ww * 0.4,
+        margin: 5,
+        height: wh * 0.05,
+        alignSelf: 'center',
+        alignItems: 'center',
+    },
+
+    centerView: {
+        alignSelf: 'center', alignContent: 'center', justifyContent: 'center'
+    },
+
+    txtContainer: {
+        margin: 20, textAlign: 'center', fontSize: 16, fontWeight: "bold"
+    },
+
+    subViewInfo: {
+        alignContent: "center", justifyContent: "center", margin: 5, flexDirection: "row"
+    },
 
 })

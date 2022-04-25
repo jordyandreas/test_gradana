@@ -7,9 +7,9 @@ const Stack = createNativeStackNavigator();
 const Router = () => {
     return (
         <Stack.Navigator initialRouteName="FirstPage">
-            <Stack.Screen name="FirstPage" component={FirstPage} />
-            <Stack.Screen name="SecondPage" component={SecondPage} />
-            <Stack.Screen name="ThirdPage" component={ThirdPage} />
+            <Stack.Screen name="Get Data Dummy" component={FirstPage} />
+            <Stack.Screen name="Open Camera" component={SecondPage} />
+            <Stack.Screen name="Dropdown list" component={ThirdPage} />
         </Stack.Navigator>
     )
 }
